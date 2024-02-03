@@ -29,6 +29,7 @@ public class AddUserController {
 		return addUserServ.addUser(user);
 
 	}
+//my name is ambresh iam from pune
 	
 	@GetMapping("/user")
 	public ResponseEntity<List<AddUser>> getalluser() {
@@ -52,7 +53,6 @@ public class AddUserController {
 	}
 
 
-//make changes from ambresh
 
 
 	//update user
